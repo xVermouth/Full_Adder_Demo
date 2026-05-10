@@ -9,12 +9,23 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a 1-bit full adder that takes 3 single bit inputs [A, B, Cin] that outputs the sum [S, Cout]
 
 ## How to test
 
-Explain how to use your project
+Use the  truth table below for functionality testing.
+
+| Cin     | A       | B      | S      | Cout   |
+|---------|---------|--------|--------|--------|
+| 0       | 0       | 0      | 0      | 0      |
+| 0       | 0       | 1      | 1      | 0      |
+| 0       | 1       | 0      | 1      | 0      |
+| 0       | 1       | 1      | 0      | 1      |
+| 1       | 0       | 0      | 1      | 0      |
+| 1       | 0       | 1      | 0      | 1      |
+| 1       | 1       | 0      | 0      | 1      |
+| 1       | 1       | 1      | 1      | 1      |
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Input and Output LED can be used for display.
